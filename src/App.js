@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
 
+import TitleHeader from "./components/TitleHeader.js";
+import AboutMe from './components/AboutMe.js'
+
+import Divider from '@mui/material/Divider';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+      <div id="app-container"> 
+        <TitleHeader/>
+        <Divider variant="left"/>  
+
+        <AboutMe/>
+ 
+      </div>
+
+
+
     </div>
   );
 }
