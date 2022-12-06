@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/final-portfolio/static/css/main.9b60275c.css",
-    "main.js": "/final-portfolio/static/js/main.4c11d820.js",
+    "main.js": "/final-portfolio/static/js/main.4d70ce24.js",
     "static/media/water-1.jpeg": "/final-portfolio/static/media/water-1.bd6423cf31a067cd8cfb.jpeg",
     "static/media/storyboard7.jpg": "/final-portfolio/static/media/storyboard7.0ec43d9a162bb9540983.jpg",
     "static/media/storyboard3.jpg": "/final-portfolio/static/media/storyboard3.565e853a68ecba35043d.jpg",
@@ -16,7 +16,7 @@
     "static/media/grinch_resume.pdf": "/final-portfolio/static/media/grinch_resume.d7beaa365ee70bb8ac86.pdf",
     "static/media/project1.svg": "/final-portfolio/static/media/project1.15bc204ca3e7855798fd.svg",
     "static/media/water-1.svg": "/final-portfolio/static/media/water-1.15bc204ca3e7855798fd.svg",
-    "static/media/arAgency.svg": "/final-portfolio/static/media/arAgency.dd110e8a26db538ec1cf.svg",
+    "static/media/arAgency.svg": "/final-portfolio/static/media/arAgency.dd110e8a26db538ec1cf9cb6fdfaa71e.svg",
     "static/media/resume.pdf": "/final-portfolio/static/media/resume.411fe209f3d3c885cff0.pdf",
     "static/media/sloth.svg": "/final-portfolio/static/media/sloth.491adbce9af76e83387dd6c9fc39c881.svg",
     "static/media/save-water.svg": "/final-portfolio/static/media/save-water.013374034216a05b63f8.svg",
@@ -27,10 +27,10 @@
     "index.html": "/final-portfolio/index.html",
     "static/media/references": "/final-portfolio/static/media/references.5165531171c306e6df57",
     "main.9b60275c.css.map": "/final-portfolio/static/css/main.9b60275c.css.map",
-    "main.4c11d820.js.map": "/final-portfolio/static/js/main.4c11d820.js.map"
+    "main.4d70ce24.js.map": "/final-portfolio/static/js/main.4d70ce24.js.map"
   },
   "entrypoints": [
     "static/css/main.9b60275c.css",
-    "static/js/main.4c11d820.js"
+    "static/js/main.4d70ce24.js"
   ]
 }
