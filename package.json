@@ -2,7 +2,7 @@
   "name": "react-stencil",
   "homepage": "/final-portfolio/",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
