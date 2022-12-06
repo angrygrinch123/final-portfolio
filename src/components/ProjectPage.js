@@ -4,6 +4,8 @@ import Link from '@mui/material/Link';
 import TitleHeader from './TitleHeader.js';
 import Project1 from './pages/Project1.js';
 import Project2 from './pages/Project2.js';
+import Project3 from './pages/Project3.js';
+
 
 export default function ProjectPage({project}) {
   function renderPage(project){
@@ -12,6 +14,10 @@ export default function ProjectPage({project}) {
     }
     if (project.path ==="Project2"){
       return <Project2/>
+    }
+
+    if (project.path ==="Project3"){
+      return <Project3/>
     }
   }
 

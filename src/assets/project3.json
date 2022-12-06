@@ -1,0 +1,16 @@
+{
+    "content":[
+        {
+            "header": "Varied Opinions on Virtual Pet",
+            "response": "Some people did not like the sushi cat because they did not think it would be actually useful. Future iterations should test via an A/B testing to understand the efficacy of the virtual pet."
+        },
+        {
+            "header":"Visually Unclear Prototypes",
+            "response": "Many assessments found that they could not find our lo-fi prototypes. Future iterations should create a better visual hierarchy to help the viewers spot all the l-fi prototypes."
+        },
+        {
+            "header":"Consideration of Retention",
+            "response": "The main feedback from the co-founder of the startup was that we should think about retention and engagement for many of these mental health apps. It is pivotal to create apps that are non-intrusive nor predatory but can be scalable for a greater public."
+        }
+    ]
+}
