@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/final-portfolio/static/css/main.9b60275c.css",
-    "main.js": "/final-portfolio/static/js/main.974944c4.js",
+    "main.js": "/final-portfolio/static/js/main.49177c01.js",
     "static/media/water-1.jpeg": "/final-portfolio/static/media/water-1.bd6423cf31a067cd8cfb.jpeg",
     "static/media/storyboard7.jpg": "/final-portfolio/static/media/storyboard7.0ec43d9a162bb9540983.jpg",
     "static/media/storyboard3.jpg": "/final-portfolio/static/media/storyboard3.565e853a68ecba35043d.jpg",
@@ -13,6 +13,7 @@
     "static/media/storyboard6.jpg": "/final-portfolio/static/media/storyboard6.9ca6910413c0fcef465e.jpg",
     "static/media/storyboard9.jpg": "/final-portfolio/static/media/storyboard9.847a6c123345440a07f5.jpg",
     "static/media/storyboard8.jpg": "/final-portfolio/static/media/storyboard8.0e431dcfa234f1480819.jpg",
+    "static/media/arGlasses.svg": "/final-portfolio/static/media/arGlasses.f200923d4e24838b56b5a3894cdebb3c.svg",
     "static/media/grinch_resume.pdf": "/final-portfolio/static/media/grinch_resume.d7beaa365ee70bb8ac86.pdf",
     "static/media/project1.svg": "/final-portfolio/static/media/project1.15bc204ca3e7855798fd.svg",
     "static/media/water-1.svg": "/final-portfolio/static/media/water-1.15bc204ca3e7855798fd.svg",
@@ -27,10 +28,10 @@
     "index.html": "/final-portfolio/index.html",
     "static/media/references": "/final-portfolio/static/media/references.5165531171c306e6df57",
     "main.9b60275c.css.map": "/final-portfolio/static/css/main.9b60275c.css.map",
-    "main.974944c4.js.map": "/final-portfolio/static/js/main.974944c4.js.map"
+    "main.49177c01.js.map": "/final-portfolio/static/js/main.49177c01.js.map"
   },
   "entrypoints": [
     "static/css/main.9b60275c.css",
-    "static/js/main.974944c4.js"
+    "static/js/main.49177c01.js"
   ]
 }
