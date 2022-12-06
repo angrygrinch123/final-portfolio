@@ -2,9 +2,9 @@
     "content":[
         {
             "header": "Lack of Transparency",
-            "response": ["the person who is wearing the glasses can receive multiple information, ... but for the other person it's just talk.",
-            "don't know what's happening from the other side", 
-            "the proximity I feel with them correlates with how much freedom they have with the filters."]
+            "response": ["The person who is wearing the glasses can receive multiple information, ... but for the other person it's just talk.",
+            "[I] don't know what's happening from the other side", 
+            "The proximity I feel with them correlates with how much freedom they have with the filters."]
             
         },
         {
@@ -15,7 +15,41 @@
             "header": "Discreet Recording Enabling Primary Actors",
             "response": [
                 "There's less barrier to [record]",
-                "[primary users] have a choice, [but] people who do not wear the glasses... do not have a choice... to be recorded or not"]
+                "[The primary users] have a choice, [but] people who do not wear the glasses... do not have a choice... to be recorded or not"]
+        }
+    ],
+
+    "behavior" : [
+        {
+            "header": "Repositioning",
+            "response": "Many primary users repositioned themselves to apply the face filters on to the secondary users"
+        }, 
+        { 
+            "header": "Tapping",
+            "response": "Many secondary users found the occasional tapping on the side of AR Glasses eerie because they didn't know how their appearances wer being altered by the primary user"
+        },
+        {
+            "header": "Unintentional Smirking",
+            "response": "Some of the primary users unintentionally smirked with the application of the face filters on the secondary users because they found them humorous. The secondary users found this interaction distracting."
+        }
+    ],
+
+    "design" : [
+        {
+            "header": "Transparent Design",
+            "response": "Participants noted that they wanted the AR glasses to physically be more transparent to secondary users. Participants discussed about three physical changes: less shaded lenses, visual and auditory indicators, and sharing capabilities for more transparency."
+        }, 
+        { 
+            "header": "Transparent Lenses",
+            "response": "Transparent glasses make participants feel more comfortable because they could see what the other person was focusing on and whether they were reacting to his ideas correctly. Essentially, lighter-colored glasses would provide more transparent communication cues.  Implementing a visible change (i.e. virtual eyes) in the lenses themselves may also be an alternative."
+        },
+        {
+            "header": "Visual and Auditory Indicators",
+            "response": "Participants wished for audio or visual indicators to make secondary users aware that AR glasses were in use. "
+        },
+        {
+            "header": "Experience Sharing",
+            "response": "Participants also suggested methods of sharing primary users' content to secondary users. Sharing content would allow secondary users to not only be aware of what primary users are doing, but also feel assured that their appearances were not being nefariously changed. In particular, participants mentioned the use of holograms, projections, and live-streaming capabilities. "
         }
     ]
 }

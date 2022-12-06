@@ -3,7 +3,6 @@ import { Typography, Divider, Container,
     Button} from '@mui/material';
 import Link from '@mui/material/Link';
 
-import project1Feedback from "../../assets/project1Feedback.json";
 import project2Interviews from "../../assets/project2Interviews.json";
  
 import arAgency from "../../images/arAgency.svg";
@@ -52,22 +51,22 @@ return (
 
 
 
-    <Typography align="left"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component="div" >
-    The <BoldText txt="goal of the interaction task is to encourage social interaction and communication between participants"/> so that we 
-    can observe user interactions with AR glasses. In this case, we used the desert survival task,
-    a communication task where the participant will come up with 15 items based on their perceived importance 
-    in a simulated desert survival scenario.
-    </Typography>
-
 
 
     <Typography sx={{marginTop:"3vw", fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
-        User Interviews
+        Perspective of Secondary Users
     </Typography>
     <Typography align="left"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component="div">
+    To truly understand user behavior, we observed five pairs of users in a study setting, in which each pair had one primary and one secondar user in a simulated interaction task setting. 
+    We wanted to <BoldText txt="observe how the presence of AR glasses and a filter affected secondary users."/> In this case, we used the desert survival task,
+    a communication task where the participant will come up with 15 items based on their perceived importance 
+    in a simulated desert survival scenario. In addition, the participants expressed features and components that they want to see in AR glasses in a 
+    <BoldText txt="participatory design task"/> in which they physically sketching out their vision of future AR glasses.
+    Ultimately, we want to assess whether there exists a need for differently designed AR glasses for secondary users. 
+    The following is a summary of interviews and tasks.
+    </Typography>
 
-    To truly understand user behavior, we observed five pairs of users, in which each pair had one primary and one secondar user in a simulated interaction task setting. 
-    We wanted to <BoldText txt="observe how the presence of AR glasses and a filter affected secondary users."/>
+    <Typography align="left"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component="div" >
     In summary, secondary users felt that there were three main problems with the design of AR Glasses: 
     <BoldText txt="(1) Lack of Transparency, (2) Loss of Agency over Self-Presentation, and (3) Discreet Recording Enabling Primary Actors."/>
     Secondary users felt that the lack of physical transparency hindered people's communication, they felt powerless becuase they couldn't 
@@ -77,51 +76,28 @@ return (
 
     <AutoAccordian content={project2Interviews.content}/>
     
-    <Typography sx={{marginTop:"5vw", fontWeight:'light', marginBottom:'1vw'}} align="left" variant="h5" color="#A26769"> 
-    Participatory Designs
+    <Typography sx={{marginTop:"3vw", fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
+        Behavioral Changes of Users
     </Typography>
     <Typography align="left"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component="div">
-        
+        In addition to, noting the perspective of secondary users, we also noted behavioral changes that ocurred from the presence of AR glasses.
+        These were important to understand the impact of AR Glasses on participants' communication style. We found that while there were modifications to
+        behavior, these were more or less negligible and not a huge hindrance to the tasks. 
     </Typography>
 
-
-    <Typography gutterBottom display="inline"  variant="body1" sx={{fontWeight:'light', marginBottom:'2vw'}} component="div">
-      To empathize with and really understand what a diverse set of users struggle with, I decided to design two personas and associated empathy maps that represent different user frustrations. 
-      The personas represent users of </Typography>
-      <Typography display="inline" variant="body1" sx={{color:"#A26769"}}> varied age demographics </Typography> 
-      <Typography gutterBottom display="inline"  variant="body1" sx={{fontWeight:'light'}}>to critique the interface at hand for its lack of  </Typography>  
-      <Typography display="inline" variant="body1" sx={{color:"#A26769"}}> acceessibility. </Typography>
-      <Typography display="inline" variant="body1" sx={{color:"#A26769"}}>  Busy Bee Beatrice </Typography> 
-      <Typography gutterBottom display="inline"  variant="body1" sx={{fontWeight:'light'}}>represents the users who are  </Typography>
-      <Typography display="inline" variant="body1" sx={{color:"#A26769"}}>  pressed on time and of a relatively younger demographic 
-      </Typography>
-      <Typography gutterBottom display="inline"  variant="body1" sx={{fontWeight:'light'}}>  On the other hand, </Typography>
-      <Typography display="inline" variant="body1" sx={{color:"#A26769" }}>  Slow and Steady Sam </Typography> 
-      <Typography gutterBottom display="inline"  variant="body1" sx={{fontWeight:'light'}} >  represents users who are  </Typography>
-      <Typography display="inline" variant="body1" sx={{color:"#A26769" }}> relatively more relaxed and of an older demographic with minor physical challenges.</Typography>
-      <Typography display="inline" variant="body1" sx={{ fontWeight:'light'}}> While no one in the public interviews actual had much discomfort,
-      Sam represents a set of users who may have physical challenges to represent the experiences of those who disliked or could not hold their 
-      arms out for long periods of time to extract water. 
-      </Typography>
-
+    <AutoAccordian content={project2Interviews.behavior}/>
 
     <Typography sx={{marginTop:"5vw", fontWeight:'light', marginBottom:'1vw'}} align="left" variant="h5" color="#A26769"> 
     Design Considerations for Future AR Glasses 
     </Typography>
-    <Typography display="inline"  sx={{fontWeight:'light'}}>
-        This is actually the  
-    </Typography>
-    <Typography display="inline" color="#A26769" > second iteration </Typography>
-    <Typography  display="inline" sx={{fontWeight:'light'}}> 
-    of my persona design. The 	<Link href="https://angrygrinch123.github.io/personas_hw/" color="#A26769" underline="hover"> first iteration of the design </Link>  </Typography>
-
-    <Typography  display="inline" sx={{fontWeight:'light'}}> 
-    had personas that were "too-motivated", non-centered visual hierarchy, and lack of narrative.
-      I incorporated the feedback from peers from UX Factor as well as the studio. The following demonstrates how I incorporated each feedback to my new portfolio.
+    <Typography align="left"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component="div" >
+    From our behavioral obserivations we found that there is a <BoldText txt="power imbalance between primary and secondary users"/> 
+    becayse there are currently no features designed for consensual interactions between primary and secondary users in AR glasses. 
+    Secondary users are often stripped of their right to choose to participate because they are unaware of what the primary user is doing with AR glasses. 
+    We present a set of AR glasses' design recommendations that could ameliorate the power imbalance.
     </Typography>
 
-        
-    <AutoAccordian content={project1Feedback.content}/>
+    <AutoAccordian content={project2Interviews.design}/>
 
     <Typography sx={{marginTop:"5vw", fontWeight:'light', marginBottom:'1vw'}} align="left" variant="h5" color="#A26769"> 
     Lessons Learned

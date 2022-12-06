@@ -397,10 +397,9 @@ export default function Project1() {
 			While the contactless water dispenser was a good idea, it actually ended up not being too accessible for people even with mild discomfort.
 			In addition, because it required another set of instructions to understand how to use it, even for users with no physical discomfort or ailments
 			struggled to use the dispenser without touching the buttons on it. In fact, it almost induced more contact because it was a new interface. 
-
+			Future designs of contactless water interfaces should make sure that the interface iconography is more intuitive and does not require
+			people to hold out their hands for long periods of time as that causes discomfort for even users with no physical ailments in the arms.
 		</Typography>
-		
- 
     </div>
 
 ); 
