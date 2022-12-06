@@ -1,0 +1,83 @@
+	<Card sx={{  display:'flex', 
+				flexDirection:'row', flexWrap:'wrap', justifyContent:'space-between'}} elevation={0}>
+      <CardContent
+        component="img"
+		sx={{
+            height: '8rem',
+            width: '8rem',
+          }}
+		src={ slothSvg }
+        alt=""
+      />
+      <CardContent 	
+	  	  sx={{
+            height: '10rem',
+            width: '60rem',
+          }}>
+        <Typography gutterBottom variant="h5" component="div">
+          Busy Bee Beatrice
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Lizards are a widespread group of squamate reptiles, with over 6,000
+          species, ranging across all continents except Antarctica
+        </Typography>
+      </CardContent>
+    </Card>
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+		<Box sx={
+        { display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'space-between',
+          '& > :not(style)': {
+          marginBottom:'2vw',
+		  marginTop:'2vw',
+          width: '30rem',
+          height: '28rem',
+		  overflow: 'auto'
+        }}}>
+			<Card>
+				<CardContent>
+					<Typography gutterBottom sx={{fontWeight:'light'}} variant="subtitle1" color="#7D5C65" component="div">
+					Interview Questions
+					</Typography>
+					<ul>
+					<Typography sx={{fontWeight:'light'}}  variant="body2">
+						<li>Have you ever used a contactless water dispenser before?</li>
+						<li>Do you think the instructions below helped? </li>
+						<li>Was there anything that you liked or bothered you about using your hand to use the dispenser? If there were things that bothered you, how would you change them?</li>
+						<li>Do you prefer to use the regular faucet over this dispenser? If so, why? If not, why not?</li>
+						<li>Do you think the dispenser is convenient?</li>
+					</Typography>
+					</ul> 
+				</CardContent>
+			</Card>
+			<Card>
+				<CardContent>
+					<Typography gutterBottom sx={{fontWeight:'light'}} variant="subtitle1" color="#7D5C65" component="div">
+					Response Summaries
+					</Typography>
+					<ul>
+					<Typography sx={{fontWeight:'light'}}  variant="body2">
+						<li>All 3 users have used a contactless water dispenser before at the Nelson but not one that required hand interaction</li>
+						<li>Only 1 of the user read the instruction below and was able to find out how to use it while other users preferred trial-and-error because there was so much text</li>
+						<li>Users find it uncomfortable and unnatural to use their hand to dispense water because it restricts their movement and induce feeling of silliness in public </li>
+						<li>All users think a better design for contactless water dispensing are like the ones in the Nelson where the water bottle is placed below for water, but would use this dispenser again for "the fun of it"</li>
+						<li>All three users did not think the dispenser was extremely convenient, because they could not use the dispenser for long periods of time because their arms would hurt, but would be fine to use it just to fill a mug or a water bottle</li>
+					</Typography>
+               	   </ul> 
+				</CardContent>
+			</Card>
+		</Box>
