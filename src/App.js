@@ -8,7 +8,7 @@ import HomePage from './components/HomePage.js';
 
 import pageData from "./assets/pageData.json"
 
-import { BrowserRouter, Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter, Router, Route, Routes, Link } from 'react-router-dom';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
 
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-      <BrowserRouter>
+      <HashRouter>
 
         <Routes>
           <Route exact path="" element={<HomePage/>}/>
@@ -25,7 +25,7 @@ function App() {
             <Route exact  key={index} path={project.path} element={<ProjectPage project={project}/>}/>
           )}
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
