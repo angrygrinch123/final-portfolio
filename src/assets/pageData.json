@@ -61,10 +61,10 @@
 		{	
 			"name": "Redesigning Brown CS PhD for Accessibility and Usability",
 			"description": "Is the department's website truly accessible?",
-			"alt" : "",
-			"thumbnail" : "images/project2/arAgency.svg",
+			"alt" : "Image icon of website",
+			"thumbnail" : "images/project4/websiteIcon.svg",
 			"href": "https://sleepcoacher.cs.brown.edu/",
-			"path": "arAgency"
+			"path": "Project4"
 		}
 
 	]

@@ -5,6 +5,7 @@ import './App.css';
 
 import ProjectPage from './components/ProjectPage.js';
 import HomePage from './components/HomePage.js';
+import RedesignP4  from './components/pages/RedesignP4.js'; 
 
 import pageData from "./assets/pageData.json"
 

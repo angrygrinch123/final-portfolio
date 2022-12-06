@@ -1,0 +1,27 @@
+{
+    "content" : [
+        {
+            "header":"Smaller Images",
+            "response": ["Some of the images in the handin website could've been resized  (the lowfi prototypes are quite large)."]
+        }, {
+            "header": "Visual Contrast",
+            "response" : [
+                "The lack of color and grey text made it hard to parse through",
+                "Your headers use a light colors and a font with thin lines, and only thin lines are used to separate the cards on the bottom.",
+                "Maybe consider adding margins to your layout!"
+            ]
+        }, {
+            "header": "Enhanced Narrative",
+            "response": [
+                "See connections between your redesign choices and those problems explicitly stated in your lo-fi annotations"
+            ]   
+        },
+        {
+            "header": "Improved Responsiveness",
+            "response" : [
+                "The boxes at the bottom in your redesigned website do not seem to be very  responsive, as they appear a bit too small on phone screens",
+                "Does not adapt well in terms of responsiveness to mobile screens"
+            ]
+        }
+    ]
+}

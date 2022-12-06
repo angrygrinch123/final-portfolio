@@ -5,6 +5,7 @@ import TitleHeader from './TitleHeader.js';
 import Project1 from './pages/Project1.js';
 import Project2 from './pages/Project2.js';
 import Project3 from './pages/Project3.js';
+import Project4 from './pages/Project4.js';
 
 
 export default function ProjectPage({project}) {
@@ -18,6 +19,10 @@ export default function ProjectPage({project}) {
 
     if (project.path ==="Project3"){
       return <Project3/>
+    }
+
+    if (project.path ==="Project4"){
+      return <Project4/>
     }
   }
 
