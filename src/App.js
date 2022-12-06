@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter>
 
         <Routes>
-          <Route exact path="/" element={<HomePage/>}/>
+          <Route exact path="" element={<HomePage/>}/>
           { pageData.projects.map (( project, index ) =>
             <Route exact  key={index} path={project.path} element={<ProjectPage project={project}/>}/>
           )}
