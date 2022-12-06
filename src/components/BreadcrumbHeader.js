@@ -41,7 +41,7 @@ export default function BreadcrumbHeader() {
         <HashLink
           sx={{ display: 'flex', alignItems: 'center'   }}
           className="bredcrumbLink"
-          to="/#publications-container"
+          to="#publications-container"
         >  <DescriptionOutlinedIcon  sx={{ mr: 0.5 }} fontSize="inherit" />
           Publications
         </HashLink>
