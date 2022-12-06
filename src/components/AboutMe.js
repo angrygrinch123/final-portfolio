@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <div id="about-me-container">
     <Typography align="left"  variant="subtitle1" sx={{fontWeight:'light'}}>
-      Hi, I'm {pageData.title}. I am a {pageData.aboutMe.occupation} at Brown University in the 
+      Hello, I'm {pageData.title}. I am a {pageData.aboutMe.occupation} at Brown University in the 
       <Link href={pageData.aboutMe.advisor1.labRef} color="#A26769" underline="hover"> {pageData.aboutMe.advisor1.labName} </Link> and 
       <Link href={pageData.aboutMe.advisor2.labRef} color="#A26769" underline="hover"> {pageData.aboutMe.advisor2.labName} </Link>. 
  
