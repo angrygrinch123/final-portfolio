@@ -2,10 +2,6 @@ import { Typography, Divider, Container,
 		Box, Card, CardContent, CardMedia,
 		Button} from '@mui/material';
 import Link from '@mui/material/Link';
-import { flexbox } from '@mui/system';
-
-import { Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import project1Feedback from "../../assets/project1Feedback.json";
 import project1Interviews from "../../assets/project1Interviews.json";

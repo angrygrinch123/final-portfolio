@@ -1,7 +1,5 @@
 import { Typography } from '@mui/material';
 
-import pageData from "../assets/pageData.json"
-
 import BasicList from './BasicList.js';
 
 export default function Publications() {
