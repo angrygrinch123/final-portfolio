@@ -35,7 +35,7 @@ jobs:
     - run: |
         sed -i "s/homepage.*/homepage\": \"$(sed 's@[/\&]@\\&@g;$!s/$/\\/' repository.txt)\",/g" package.json
     - run: rm repository.txt
-    - run: npm install
+    - run: npm install --force
     - run: npm run build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
