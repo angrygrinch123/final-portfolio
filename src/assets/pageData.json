@@ -33,8 +33,8 @@
 
 		{	
 			"name": "Redesigning AR Glasses for Mixed Reality Interactions",
-			"description": "Participatory re-design of AR Glasses for users and non-users",
-			"thumbnail" : "images/arAgency.svg",
+			"description": "How do we create AR glasses for people not using it?",
+			"thumbnail" : "images/project2/arAgency.svg",
 			"alt" : "Image of one person with AR glasses another person without",
 			"href": "#",
 			"path": "Project2"
@@ -42,7 +42,7 @@
 
 		{	
 			"name": "Contextual Inquiry of Contactless Water Dispenser",
-			"description": "Contextual inquiry on design of contactless water dispenser",	
+			"description": "Is innovation always accessible?",	
 			"thumbnail" : "images/save-water.svg",
 			"alt" : "Image of hand under water",
 			"href": "#",
@@ -51,7 +51,7 @@
 
 		{	
 			"name": "Redesigning Koko as an Interactive Mental Health Chatbot",
-			"description": "Redesining chatbots for added interactivity",	
+			"description": "A collaborative, external project redesining chatbots for added interactivity.",	
 			"thumbnail" : "images/koko.svg",
 			"alt" : "Image icon of text message bubbles, one with a heart in it",
 			"href": "https://sleepcoacher.cs.brown.edu/",
@@ -62,7 +62,7 @@
 			"name": "Redesigning Brown CS PhD for Accessibility and Usability",
 			"description": "Is the department's website truly accessible?",
 			"alt" : "",
-			"thumbnail" : "images/arAgency.svg",
+			"thumbnail" : "images/project2/arAgency.svg",
 			"href": "https://sleepcoacher.cs.brown.edu/",
 			"path": "arAgency"
 		}
