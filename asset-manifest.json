@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/final-portfolio/static/css/main.9b60275c.css",
-    "main.js": "/final-portfolio/static/js/main.cf4128ee.js",
+    "main.js": "/final-portfolio/static/js/main.1acff162.js",
     "static/media/water-1.jpeg": "/final-portfolio/static/media/water-1.bd6423cf31a067cd8cfb.jpeg",
     "static/media/storyboard7.jpg": "/final-portfolio/static/media/storyboard7.0ec43d9a162bb9540983.jpg",
     "static/media/storyboard3.jpg": "/final-portfolio/static/media/storyboard3.565e853a68ecba35043d.jpg",
@@ -23,16 +23,17 @@
     "static/media/sloth.svg": "/final-portfolio/static/media/sloth.491adbce9af76e83387dd6c9fc39c881.svg",
     "static/media/save-water.svg": "/final-portfolio/static/media/save-water.013374034216a05b63f8.svg",
     "static/media/bee.svg": "/final-portfolio/static/media/bee.522e7b3331ded0877ca84426b4a30a0b.svg",
+    "static/media/websiteIcon.svg": "/final-portfolio/static/media/websiteIcon.f9909f043172ddd5b592.svg",
     "static/media/koko.svg": "/final-portfolio/static/media/koko.91ac4409667cd7893735.svg",
     "static/media/tmp.txt": "/final-portfolio/static/media/tmp.0a3d49a784ed27d3e2f6.txt",
     "static/media/logo.svg": "/final-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/final-portfolio/index.html",
     "static/media/references": "/final-portfolio/static/media/references.5165531171c306e6df57",
     "main.9b60275c.css.map": "/final-portfolio/static/css/main.9b60275c.css.map",
-    "main.cf4128ee.js.map": "/final-portfolio/static/js/main.cf4128ee.js.map"
+    "main.1acff162.js.map": "/final-portfolio/static/js/main.1acff162.js.map"
   },
   "entrypoints": [
     "static/css/main.9b60275c.css",
-    "static/js/main.cf4128ee.js"
+    "static/js/main.1acff162.js"
   ]
 }
