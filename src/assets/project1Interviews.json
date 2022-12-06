@@ -1,0 +1,24 @@
+{
+    "content":[
+        {
+            "header": "Q1. Have you ever used a contactless water dispenser before?",
+            "response": "All 3 users have used a contactless water dispenser before at the Nelson but not one that required hand interaction"
+        },
+        {
+            "header": "Q2. Do you think the instructions below [the fountain] helped?",
+            "response": "Only 1 of the user read the instruction below and was able to find out how to use it while other users preferred trial-and-error because there was so much text"
+        },
+        {
+            "header": "Q3. Was there anything that you liked or bothered you about using your hand to use the dispenser? If there were things that bothered you, how would you change them?",
+            "response": "Users find it uncomfortable and unnatural to use their hand to dispense water because it restricts their movement and induce feeling of silliness in public"
+        },
+        {
+            "header":"Q4. Do you prefer to use the regular faucet over this dispenser? If so, why? If not, why not?",
+            "response": "All users think a better design for contactless water dispensing are like the ones in the Nelson where the water bottle is placed below for water, but would use this dispenser again for 'the fun of it'"
+        },
+        {
+            "header": "Q5. Do you think the dispenser is convenient?",
+            "response": "All three users did not think the dispenser was extremely convenient, because they could not use the dispenser for long periods of time because their arms would hurt, but would be fine to use it just to fill a mug or a water bottle"
+        }
+    ]
+}

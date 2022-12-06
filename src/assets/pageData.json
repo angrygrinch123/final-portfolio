@@ -1,0 +1,71 @@
+{
+	"title" : "Angry Grinch",
+	"aboutMe" : {
+        "occupation" : "Student studying Computer Science and Peace, Love, and War in Augmented Reality",
+		"advisor1" : {
+			"name" : "Ares",
+			"ref": "https://en.wikipedia.org/wiki/Ares",
+			"labRef": "https://seuss.fandom.com/wiki/Mount_Crumpit",
+			"labName": "Mount Crumpit Lab"
+		},
+		"advisor2" : {
+			"name" : "Aphrodite",
+			"ref": "https://en.wikipedia.org/wiki/Aphrodite",
+			"labRef": "https://en.wikipedia.org/wiki/Whoville",
+			"labName": "Whoville Corporation"
+		}
+	},
+	"publications" : [
+		{
+			"type": "paper",
+			"title" :"Ochoa, Tyler T. \"Dr. Seuss, the Juice and Fair Use: How the Grinch Silenced a Parody.\" J. Copyright Soc'y USA 45 (1997): 546.",
+			"href": "https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/jocoso45&section=34",
+			"awards": null
+		},
+		{
+			"type": "poster",
+			"title" : "How the Grinch Stole Christmas | The Grinch Steals Christmas",
+			"href": "https://www.youtube.com/watch?v=pbFma8Bd-AI&ab_channel=UniversalPictures",
+			"awards": "[ Honorable Mention ]"
+		}
+	],
+	"projects" : [
+
+		{	
+			"name": "Redesigning AR Glasses for Mixed Reality Interactions",
+			"description": "Participatory re-design of AR Glasses for users and non-users",
+			"thumbnail" : "images/arAgency.svg",
+			"alt" : "Image of one person with AR glasses another person without",
+			"href": "https://sleepcoacher.cs.brown.edu/",
+			"path": "arAgency"
+		},
+
+		{	
+			"name": "Contextual Inquiry of Contactless Water Dispenser",
+			"description": "Contextual inquiry on design of contactless water dispenser",	
+			"thumbnail" : "images/save-water.svg",
+			"alt" : "Image of hand under water",
+			"href": "#",
+			"path": "Project1"
+		},
+
+		{	
+			"name": "Redesigning Koko as an Interactive Mental Health Chatbot",
+			"description": "Redesining chatbots for added interactivity",	
+			"thumbnail" : "images/koko.svg",
+			"alt" : "Image icon of text message bubbles, one with a heart in it",
+			"href": "https://sleepcoacher.cs.brown.edu/",
+			"path": "project2"
+		},
+
+		{	
+			"name": "Redesigning Brown CS PhD for Accessibility and Usability",
+			"description": "Is the department's website truly accessible?",
+			"alt" : "",
+			"thumbnail" : "images/arAgency.svg",
+			"href": "https://sleepcoacher.cs.brown.edu/",
+			"path": "arAgency"
+		}
+
+	]
+}

@@ -1,0 +1,48 @@
+{   "storyboards":[
+
+    {
+        "caption": "Sam realizes he would like some hot tea. He has tea, but not hot water.",
+        "alt": "cartoon of sam a sloth wanting hot water"
+    },
+    {
+        "caption": "He goes to the CIT kitchen and realizes there's a new water dispenser. He pauses to see how to use it.",
+        "alt":"cartoon of sam figuring out the new machine"
+    },
+
+    {
+        "caption": "He realizes someone wrote a long set of instructions on how to use the water dispenser.",
+        "alt":"cartoon of instructions to use water dispense"
+    },
+    {
+        "caption": "Sam places the cup first under the dispenser. He places it so that it fits the center where the water may dispense from.",
+        "alt":"cartoon of sam placing cup under the water dispenser"
+    },
+    {
+        "caption":"Sam realizes he actually needs hot water and quickly adjust his arm to the left to hover over the red sensor.",
+        "alt": "cartoon of sam changing arms location for hot water"
+    },
+    {
+        "caption": "Sam realizes he actually needs hot water and quickly adjust his arm to the left to hover over the red sensor.",
+        "alt": "cartoon of sam raising right hand to hover"
+    },
+    {
+        "alt":"cartoon of sam feeling like Darth Vader",
+        "caption": "Sam is amused to obtain not water by hovering his hand, instead of pressing a button. He feels like Darth Vader."
+    },
+    {
+        "alt": "cartoon of sam feeling pain in right arm",
+        "caption": "After some time, Sam winces, because he has a bad arm. His years of sitting at his desk coding has created acute shoulder pain from carpal tunnel."
+    },
+    {
+        "alt": "cartoon of sam switching arms",
+        "caption": "So Sam switches arms, and uses his left arm to continue obtaining water."
+    },
+    {
+        "alt":"cartoon of sam being happy wiht hot tea",
+        "caption": "Sam is content because now he has hot tea in a germ-free manner."
+    }
+
+]
+
+}
+

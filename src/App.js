@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-import TitleHeader from "./components/TitleHeader.js";
-import AboutMe from './components/AboutMe.js'
 
-import Divider from '@mui/material/Divider';
+
+import ProjectPage from './components/ProjectPage.js';
+import HomePage from './components/HomePage.js';
+
+import pageData from "./assets/pageData.json"
+
+import { BrowserRouter, Router, Route, Routes, Link } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -12,17 +17,15 @@ function App() {
 
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+      <BrowserRouter>
 
-      <div id="app-container"> 
-        <TitleHeader/>
-        <Divider variant="left"/>  
-
-        <AboutMe/>
- 
-      </div>
-
-
-
+        <Routes>
+          <Route exact path="/" element={<HomePage/>}/>
+          { pageData.projects.map (( project, index ) =>
+            <Route exact  key={index} path={project.path} element={<ProjectPage project={project}/>}/>
+          )}
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,17 +1,19 @@
 import BreadcrumbHeader from './BreadcrumbHeader.js';
 
-import { Typography } from '@mui/material';
+import { Typography,  Divider} from '@mui/material';
 
-import aboutMe from "../assets/aboutMe.json"
+import pageData from "../assets/pageData.json"
 
-export default function TitleHeader() {
+export default function TitleHeader({title, isProjectTitle}) {
   return (
-        <div id="header-container">
-          <Typography  color="orange" variant="h2">
-           {  aboutMe.title }
+        <div>
+        <div className="header-container">
+          <Typography color={isProjectTitle ? "#A26769": "orange"} variant="h2">
+           {  title }
           </Typography>
           <BreadcrumbHeader/>  
         </div>
-
+        <Divider variant="left"/>  
+        </div>
   );
 }

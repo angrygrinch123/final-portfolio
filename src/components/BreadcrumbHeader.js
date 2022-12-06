@@ -2,36 +2,58 @@ import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
-import HomeIcon from '@mui/icons-material/Home';
-import WhatshotIcon from '@mui/icons-material/Whatshot';
-import GrainIcon from '@mui/icons-material/Grain';
 
-function handleClick(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
-  event.preventDefault();
-  console.info('You clicked a breadcrumb.');
-}
+import { HashLink } from "react-router-hash-link";
+
+import HomeIcon from '@mui/icons-material/Home';
+import Face4Icon from '@mui/icons-material/Face4';
+import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
+import BuildOutlinedIcon from '@mui/icons-material/BuildOutlined';
+import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
+
+import resume from '../assets/grinch_resume.pdf';
 
 export default function BreadcrumbHeader() {
   return (
-    <div id="breadcrumbHeader" role="presentation" onClick={handleClick}>
+    <div id="breadcrumbHeader" role="presentation">
       <Breadcrumbs aria-label="breadcrumb">
-        <Link
-          underline="hover"
-          sx={{ display: 'flex', alignItems: 'center' }}
-          color="inherit"
-          href="/"
-        >
-          <HomeIcon sx={{ mr: 0.5 }} fontSize="inherit" />
+        <HashLink
+          sx={{ display: 'flex', alignItems: 'center'   }}
+          className="bredcrumbLink"
+          to="/"
+        >  <HomeIcon  sx={{ mr: 0.5 }} fontSize="inherit" />
           Home
-        </Link>
+        </HashLink>
+        <HashLink
+          sx={{ display: 'flex', alignItems: 'center'   }}
+          className="bredcrumbLink"
+          to="/#about-me-container"
+        >  <Face4Icon  sx={{ mr: 0.5 }} fontSize="inherit" />
+          About Me
+        </HashLink>
+        <HashLink
+          sx={{ display: 'flex', alignItems: 'center'   }}
+          className="bredcrumbLink"
+          to="/#project-list-container"
+        >  <BuildOutlinedIcon  sx={{ mr: 0.5 }} fontSize="inherit" />
+          Projects
+        </HashLink>
+        <HashLink
+          sx={{ display: 'flex', alignItems: 'center'   }}
+          className="bredcrumbLink"
+          to="/#publications-container"
+        >  <DescriptionOutlinedIcon  sx={{ mr: 0.5 }} fontSize="inherit" />
+          Publications
+        </HashLink>
         <Link
           underline="hover"
-          sx={{ display: 'flex', alignItems: 'center' }}
           color="inherit"
-          href="/material-ui/getting-started/installation/"
-        >
-          <WhatshotIcon sx={{ mr: 0.5 }} fontSize="inherit" />
-          About Me
+          sx={{ display: 'flex', alignItems: 'center'   }}
+          className="bredcrumbLink"
+          href={resume}
+          target="_blank"
+        >  <FileDownloadOutlinedIcon  sx={{ mr: 0.5 }} fontSize="inherit" />
+          Resume
         </Link>
       </Breadcrumbs>
     </div>

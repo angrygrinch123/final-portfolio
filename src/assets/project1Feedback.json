@@ -1,0 +1,20 @@
+{
+    "content": [
+        {
+            "header":"Better visual hierarchy for readability (i.e. margins, centralized view)",
+            "response":"I added margins and centered the images in my project so that readers know where to look exactly and for better readability."
+        },
+        {
+            "header":"More Polished Narrative",
+            "response":"I added sentences describing the motivation behind the design of my personas and for each section to engage the readers more."
+        },
+        {
+            "header":"Fewer Imagined Details in Personas ",
+            "response":"While initially I tried to add a lot of details to enhance empathy for my personas, it seemed to have detract from the actual user experience I was trying to design. So I removed a lot of the back story, particularly for Sam who was originally a tenured professor playing Skyrim and planning a trip to Hawaii."
+        },
+        {
+            "header":"Visual Confusion with Storyboard",
+            "response":"I added sentences describing the motivation behind the design of my personas and for each section to engage the readers more."
+        }
+    ]
+}
