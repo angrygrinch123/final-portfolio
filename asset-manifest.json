@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/final-portfolio/static/css/main.9b60275c.css",
-    "main.js": "/final-portfolio/static/js/main.49177c01.js",
+    "main.js": "/final-portfolio/static/js/main.cf4128ee.js",
     "static/media/water-1.jpeg": "/final-portfolio/static/media/water-1.bd6423cf31a067cd8cfb.jpeg",
     "static/media/storyboard7.jpg": "/final-portfolio/static/media/storyboard7.0ec43d9a162bb9540983.jpg",
     "static/media/storyboard3.jpg": "/final-portfolio/static/media/storyboard3.565e853a68ecba35043d.jpg",
@@ -12,6 +12,7 @@
     "static/media/storyboard5.jpg": "/final-portfolio/static/media/storyboard5.1015a1a5f489a99e1442.jpg",
     "static/media/storyboard6.jpg": "/final-portfolio/static/media/storyboard6.9ca6910413c0fcef465e.jpg",
     "static/media/storyboard9.jpg": "/final-portfolio/static/media/storyboard9.847a6c123345440a07f5.jpg",
+    "static/media/sushiCat.svg": "/final-portfolio/static/media/sushiCat.6f95c8313063cbe44b18babe18c401ec.svg",
     "static/media/storyboard8.jpg": "/final-portfolio/static/media/storyboard8.0e431dcfa234f1480819.jpg",
     "static/media/arGlasses.svg": "/final-portfolio/static/media/arGlasses.f200923d4e24838b56b5a3894cdebb3c.svg",
     "static/media/grinch_resume.pdf": "/final-portfolio/static/media/grinch_resume.d7beaa365ee70bb8ac86.pdf",
@@ -28,10 +29,10 @@
     "index.html": "/final-portfolio/index.html",
     "static/media/references": "/final-portfolio/static/media/references.5165531171c306e6df57",
     "main.9b60275c.css.map": "/final-portfolio/static/css/main.9b60275c.css.map",
-    "main.49177c01.js.map": "/final-portfolio/static/js/main.49177c01.js.map"
+    "main.cf4128ee.js.map": "/final-portfolio/static/js/main.cf4128ee.js.map"
   },
   "entrypoints": [
     "static/css/main.9b60275c.css",
-    "static/js/main.49177c01.js"
+    "static/js/main.cf4128ee.js"
   ]
 }
