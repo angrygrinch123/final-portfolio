@@ -35,10 +35,30 @@ return (
         First Redesign Iteration
         </Typography>
         <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
-        I have provided an following embedding for quick access. For more detailed introspection, please go to the actual project link. 
+        The following are the first iterations of the narrative and website design of this project. 
+        I have provided an following embeddings for quick access. For more detailed introspection, please go to the actual project links. 
         </Typography>
         <p></p>
         
+        <Typography align="left"  variant="h6" sx={{fontWeight:'light', marginTop:'3vw'}} component='div' >
+        Narrative Redesign [First Iteration] -    <Link href="https://angrygrinch123.github.io/redesign/" target="_" color="#A26769" underline="hover" > 
+            Link
+            </Link>
+        </Typography>
+        <Iframe url="https://angrygrinch123.github.io/redesign/"
+        width="100%"
+        height="300rem"
+        id=""
+        className=""
+        display="block"
+        position="relative"/>
+ 
+
+        <Typography align="left"  variant="h6" sx={{fontWeight:'light', marginTop:'3vw'}} component='div' >
+         Website Redesign [First Iteration] -         <Link href="https://angrygrinch123.github.io/redesign/redesigned.html" target="_" color="#A26769" underline="hover" > 
+            Link
+            </Link>
+        </Typography>
         <Iframe url="https://angrygrinch123.github.io/redesign/redesigned.html"
         width="100%"
         height="300rem"
@@ -46,26 +66,47 @@ return (
         className=""
         display="block"
         position="relative"/>
-        <Typography align="right"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component='div' >
-            <Link href="https://angrygrinch123.github.io/redesign/redesigned.html" target="_" color="#A26769" underline="hover" > 
-            First Redesign Iteration
-            </Link>
-        </Typography>
+    
 
-
-        <Typography sx={{marginTop:"2vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
+        <Typography sx={{marginTop:"5vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
         Design Feedback
         </Typography>
         <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
-        This is a selection of summaries from UX Factor. The main feedback was that the visual flow needs to be enhanced, 
+        This is a selection of summaries from UX Factor, a peer-assessment tool of portfolios. The main feedback was that the visual flow needs to be enhanced, 
         particularly in the forms of 
         contrast and centric views. 
         </Typography>
         
         <AutoAccordian content={project4.content}/>
 
-        <Typography sx={{marginTop:"2vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
+        <Typography sx={{marginTop:"5vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
         Second Redesign Iteration
+        </Typography>
+        <Typography align="left"  variant="h6" sx={{fontWeight:'light', marginTop:'1vw'}} component='div' >
+        Narrative Redesign [ Second Iteration ] -    <Link href="https://angrygrinch123.github.io/redesign/index2.html" target="_" color="#A26769" underline="hover" > 
+            Link
+            </Link>
+        </Typography>
+
+        <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
+        The main changes I made, following the feedback was the 
+        <BoldText txt="(1) addition of margins, (2) enhanced contrast with removal of colors, (3) enhanced narrative, and (4) masked images."/>
+            I included more detail into the project and the reasoning behind the design choices. I made the visual hierarchy of the narrative websiteclearer
+            just by masking unnecessary content (i.e. use of accordions) and choosing fewer colors.
+        </Typography>
+
+        <Iframe url="https://angrygrinch123.github.io/redesign/index2.html"
+        width="100%"
+        height="300rem"
+        id=""
+        className=""
+        display="block"
+        position="relative"/>
+ 
+        <Typography align="left"  variant="h6" sx={{fontWeight:'light', marginTop:'3vw'}} component='div' >
+        Website Redesign [Second Iteration] -    <Link href="https://angrygrinch123.github.io/redesign/redesign2.html" target="_" color="#A26769" underline="hover" > 
+            Link
+            </Link>
         </Typography>
         <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
         The main changes I made, following the feedback was the 
@@ -84,12 +125,7 @@ return (
         className=""
         display="block"
         position="relative"/>
-        <Typography align="right"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component='div' >
-            <Link href="https://angrygrinch123.github.io/redesign/redesign2.html" target="_" color="#A26769" underline="hover" > 
-            Second Redesign Iteration
-            </Link>
-        </Typography>
-
+    
 
         <Typography sx={{marginTop:"2vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
         Lessons Learned

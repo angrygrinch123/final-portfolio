@@ -25,7 +25,7 @@ return (
         Because this was an external group project, the details and design project are in an external website. This page contains 
         <BoldText txt="my personal reflections on the project and summary of feedback."/>
 
-        For a more elaborate exploration, please view: <Link href="https://sleepypinks.github.io/koko" color="#A26769" underline="hover"> 
+        For the actual redesign content, please view: <Link href="https://sleepypinks.github.io/koko" color="#A26769" underline="hover"> 
                 {`Iterative Re-design of Koko <3`} 
             </Link>
         </Typography>
