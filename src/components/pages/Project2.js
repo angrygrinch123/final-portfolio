@@ -51,7 +51,7 @@ return (
     </Card>
 
 
-    <Typography sx={{marginTop:"3vw", fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
+    <Typography sx={{marginTop:"5vw", fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
         Perspective of Secondary Users
     </Typography>
     <Typography align="left"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component="div">
@@ -99,7 +99,7 @@ return (
 
     <AutoAccordian content={project2Interviews.content}/>
     
-    <Typography sx={{marginTop:"3vw", fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
+    <Typography sx={{marginTop:"5vw", fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
         Behavioral Changes of Users
     </Typography>
     <Typography align="left"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component="div">

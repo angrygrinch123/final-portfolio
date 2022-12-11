@@ -23,5 +23,39 @@
                 "Does not adapt well in terms of responsiveness to mobile screens"
             ]
         }
+    ],
+
+    "keyIssues":[
+        {
+            "header" : "Layout Alignment",
+            "response" : "The alignment does not follow Gesalt Principles as there is no continuity in the style of the website nor is the content grouped by similarity; so the layout does not follow the conceptual model that users usually expect (i.e. prospective students and current students expect separate pages or dividers to find relevant info and not to have all the info one one page)"
+        },
+        {
+            "header": "Poor Contrast Management",
+            "response": "Too much bolding, bullet pointing, and navigation bars create confusion about what is truly important on the page"
+        },
+        {
+            "header": "Inefficient",
+            "response": "Does not follow the conceptual model of prospective students nor current students; most expect a separate section for different users and the order in which they find this information usually is more organized; this also affects memorability because the user must re-adjust each time and relearn the format and information hierarchy"
+        },
+        {
+            "header":"Visual Overload",
+            "response": "There are too many options to navigate around the page (i.e. the navigation bar, the bread crumbs, and the tabs) which creates a high bar for learnability"
+        },
+        {
+            "header":"Inaccessible",
+            "response": "Much of the alt texts are missing and the color contrast is not friendly to users with visual impairments"
+        }
+    ],
+
+    "waveFindings":[
+        {
+            "header": "16 Contrast Errors",
+            "response": "The orange to white background signal a lot of contrast error"
+        }, 
+        {
+            "header": "2 Suspicious Alternative Texts",
+            "response": "The alt text don't have any meaningful descriptions in it and only includes the picture name"
+        }
     ]
 }

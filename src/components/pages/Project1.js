@@ -333,7 +333,7 @@ export default function Project1() {
 		<Box sx={
         { display: 'flex',
           flexWrap: 'wrap',
-          justifyContent: 'space-between',
+          justifyContent: 'space-evenly',
           '& > :not(style)': {
           margin:'2vw',
           width: '15rem',
