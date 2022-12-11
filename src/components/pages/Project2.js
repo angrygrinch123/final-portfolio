@@ -19,8 +19,8 @@ return (
     </Typography>
     <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
     Augmented reality (AR) glasses extend and alter users' perceptions in face-to-face interactions. 
-    While many AR studies focus on the design experiences and psychological effects for <BoldText txt="primary users"/>,
-    the person wearing the AR Glasses, the impact and social consequences on <BoldText txt="secondary actors"/>, 
+    While many AR studies focus on the design experiences and psychological effects for <BoldText txt="primary users,"/>
+    the person wearing the AR Glasses, the impact and social consequences on <BoldText txt="secondary actors,"/>
     or the users who are not wearing the AR glasses remain unclear. 
     Secondary actors are significant stakeholders in mixed reality because they are drawn into a virtual world 
     by the primary user if the primary user applies any filters on the secondary actor. 

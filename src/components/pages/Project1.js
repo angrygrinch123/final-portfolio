@@ -15,7 +15,7 @@ export default function Project1() {
   return (
     <div id="description-container">
 		<Typography sx={{marginTop:"2vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
-		Context & Problem Statement
+		Novelty is Not Always the Best Policy: An Inaccessible, Unintuitive Water Dispenser
 		</Typography>
 		<Typography display="inline" align="left"  variant="body1" sx={{fontWeight:'light'}} >
 		This is a contextual inquiry on a contactless water dispenser on the fourth floor of the CIT. 
@@ -32,7 +32,12 @@ export default function Project1() {
 		</Typography> 
 
 		<Typography sx={{marginTop:"5vw", fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
-		Key Observations from Public Observations
+		Public Observations
+		</Typography>
+		<Typography display="inline" align="left"  variant="body1" sx={{fontWeight:'light'}} >
+		To understand how users behave, I decided to sit and watch people use the dispenser.
+	 	The belief was that I could understand the interface better by watching other people use it and how they react to it or not react to it. 
+		The following are my findings. 
 		</Typography>
  
 
