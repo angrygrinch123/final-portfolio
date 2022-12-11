@@ -14,7 +14,7 @@ import sushiCat from "../../images/project3/sushiCat.svg";
 export default function Project4() {
 return (
     <div id="description-container">
-        <Typography sx={{marginTop:"5vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
+        <Typography sx={{marginTop:"2vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
         Are we Actually Accessible? 
         </Typography>
         <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
