@@ -21,7 +21,10 @@ export default function AboutMe() {
       While I do research in computer science, I think it's important to observe and ask users the challenges and problems they face when using a system. 
       Many of my projects include formative studies and observations of users. 
       I also enjoy redesigning visual hierachies to make systems more engaging and accessible for a broad range of users. 
-      This is why all of my personal projects have alt-encoded images and response visual hierachies using React.js 
+      This is why all of my personal projects have alt-encoded images and responsive visual hierachies using React.js 
+
+      <p></p>
+      Anyway, that's all for me! Feel free to click around and check out my projects! > :)
     </Typography>
     </div>
   );
