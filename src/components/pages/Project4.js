@@ -309,8 +309,8 @@ return (
         The website includes placeholder images, removed a lot of overloaded contrast in the content to summarize it
         in the navbar. The main focus is the <BoldText txt="changed visual hierarchy and reduced visual overload"/>
         I have provided an following embeddings for quick access.
-         For more detailed introspection, please click on: <Link href="https://angrygrinch123.github.io/redesign/redesigned.html" target="_" color="#335145" underline="hover" > 
-            First Iteration Link.
+         For more detailed introspection, please click on: <Link href="https://angrygrinch123.github.io/redesign/redesigned.html" target="_" color="#53599A" underline="hover" > 
+            First Iteration of Redesigned Website Link.
             </Link>
     </Typography>
         <p></p> 
