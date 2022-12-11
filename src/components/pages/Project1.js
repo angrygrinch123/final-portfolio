@@ -139,7 +139,7 @@ export default function Project1() {
 		<Box sx={
         { display: 'flex',
           flexWrap: 'wrap',
-          justifyContent: 'space-between',
+          justifyContent: 'space-evenly',
           '& > :not(style)': {
           marginBottom:'2vw',
 		  marginTop:'2vw',
@@ -245,7 +245,7 @@ export default function Project1() {
 		<Box sx={
         { display: 'flex',
           flexWrap: 'wrap',
-          justifyContent: 'space-between',
+          justifyContent: 'space-evenly',
           '& > :not(style)': {
           marginBottom:'2vw',
 		  marginTop:'2vw',
