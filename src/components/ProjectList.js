@@ -23,7 +23,7 @@ export default function ProjectList() {
           alignItems: 'center',
           width:'100%',
           marginTop:'2vw',
-          overflow:'scroll'
+          overflow:'auto',
         }}}>
        { pageData.projects.map (( project, index ) =>
           <ProjectCard key={index} project={project}/>
