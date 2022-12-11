@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/final-portfolio/static/css/main.9b60275c.css",
-    "main.js": "/final-portfolio/static/js/main.0793fdf3.js",
+    "main.css": "/final-portfolio/static/css/main.49c2b708.css",
+    "main.js": "/final-portfolio/static/js/main.d83c961b.js",
+    "static/media/designIssues.png": "/final-portfolio/static/media/designIssues.68ed99ef43ebb2b9e62b.png",
+    "static/media/website_lofi.png": "/final-portfolio/static/media/website_lofi.424b4a2debc755211bbe.png",
     "static/media/water-1.jpeg": "/final-portfolio/static/media/water-1.bd6423cf31a067cd8cfb.jpeg",
+    "static/media/website_hifi.png": "/final-portfolio/static/media/website_hifi.aa6d7f4508586131d21a.png",
     "static/media/storyboard7.jpg": "/final-portfolio/static/media/storyboard7.0ec43d9a162bb9540983.jpg",
+    "static/media/phone_lofi.png": "/final-portfolio/static/media/phone_lofi.207bf0450e5ca9d8d5bc.png",
     "static/media/storyboard3.jpg": "/final-portfolio/static/media/storyboard3.565e853a68ecba35043d.jpg",
+    "static/media/tablet_lofi.png": "/final-portfolio/static/media/tablet_lofi.335f166a7f970d0b3855.png",
     "static/media/storyboard4.jpg": "/final-portfolio/static/media/storyboard4.489f3ce2af597116d6a7.jpg",
     "static/media/storyboard10.jpg": "/final-portfolio/static/media/storyboard10.b9d14a5396fd77d3f033.jpg",
     "static/media/storyboard2.jpg": "/final-portfolio/static/media/storyboard2.39c0eb5688cbdf70177a.jpg",
@@ -13,11 +18,14 @@
     "static/media/storyboard6.jpg": "/final-portfolio/static/media/storyboard6.9ca6910413c0fcef465e.jpg",
     "static/media/storyboard9.jpg": "/final-portfolio/static/media/storyboard9.847a6c123345440a07f5.jpg",
     "static/media/sushiCat.svg": "/final-portfolio/static/media/sushiCat.6f95c8313063cbe44b18babe18c401ec.svg",
+    "static/media/phone_hifi.png": "/final-portfolio/static/media/phone_hifi.b65480256d4669c761ad.png",
     "static/media/storyboard8.jpg": "/final-portfolio/static/media/storyboard8.0e431dcfa234f1480819.jpg",
     "static/media/arGlasses.svg": "/final-portfolio/static/media/arGlasses.f200923d4e24838b56b5a3894cdebb3c.svg",
+    "static/media/tablet_hifi.png": "/final-portfolio/static/media/tablet_hifi.5fc297e3bafd7a76e49f.png",
     "static/media/grinch_resume.pdf": "/final-portfolio/static/media/grinch_resume.d7beaa365ee70bb8ac86.pdf",
     "static/media/project1.svg": "/final-portfolio/static/media/project1.15bc204ca3e7855798fd.svg",
     "static/media/water-1.svg": "/final-portfolio/static/media/water-1.15bc204ca3e7855798fd.svg",
+    "static/media/visualStyleGuide.png": "/final-portfolio/static/media/visualStyleGuide.6f1c48e72913702126e7.png",
     "static/media/arAgency.svg": "/final-portfolio/static/media/arAgency.dd110e8a26db538ec1cf9cb6fdfaa71e.svg",
     "static/media/resume.pdf": "/final-portfolio/static/media/resume.411fe209f3d3c885cff0.pdf",
     "static/media/sloth.svg": "/final-portfolio/static/media/sloth.491adbce9af76e83387dd6c9fc39c881.svg",
@@ -29,11 +37,11 @@
     "static/media/logo.svg": "/final-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/final-portfolio/index.html",
     "static/media/references": "/final-portfolio/static/media/references.5165531171c306e6df57",
-    "main.9b60275c.css.map": "/final-portfolio/static/css/main.9b60275c.css.map",
-    "main.0793fdf3.js.map": "/final-portfolio/static/js/main.0793fdf3.js.map"
+    "main.49c2b708.css.map": "/final-portfolio/static/css/main.49c2b708.css.map",
+    "main.d83c961b.js.map": "/final-portfolio/static/js/main.d83c961b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b60275c.css",
-    "static/js/main.0793fdf3.js"
+    "static/css/main.49c2b708.css",
+    "static/js/main.d83c961b.js"
   ]
 }
