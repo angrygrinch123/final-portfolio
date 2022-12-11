@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/final-portfolio/static/css/main.49c2b708.css",
-    "main.js": "/final-portfolio/static/js/main.a980e69c.js",
+    "main.js": "/final-portfolio/static/js/main.c0028900.js",
     "static/media/designIssues.png": "/final-portfolio/static/media/designIssues.68ed99ef43ebb2b9e62b.png",
     "static/media/website_lofi.png": "/final-portfolio/static/media/website_lofi.424b4a2debc755211bbe.png",
     "static/media/water-1.jpeg": "/final-portfolio/static/media/water-1.bd6423cf31a067cd8cfb.jpeg",
@@ -38,10 +38,10 @@
     "index.html": "/final-portfolio/index.html",
     "static/media/references": "/final-portfolio/static/media/references.5165531171c306e6df57",
     "main.49c2b708.css.map": "/final-portfolio/static/css/main.49c2b708.css.map",
-    "main.a980e69c.js.map": "/final-portfolio/static/js/main.a980e69c.js.map"
+    "main.c0028900.js.map": "/final-portfolio/static/js/main.c0028900.js.map"
   },
   "entrypoints": [
     "static/css/main.49c2b708.css",
-    "static/js/main.a980e69c.js"
+    "static/js/main.c0028900.js"
   ]
 }
