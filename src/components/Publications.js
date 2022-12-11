@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material';
 
-import BasicList from './BasicList.js';
+import BasicList from './PublicationList.js';
 
 export default function Publications() {
   return (

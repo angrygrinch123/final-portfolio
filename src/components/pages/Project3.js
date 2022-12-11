@@ -17,39 +17,28 @@ return (
         <Typography sx={{marginTop:"2vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
         Background and Problem Statement
         </Typography>
-        <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
-        This was a
-        <BoldText txt="collaborative, iterative design project "/> 
+        <Typography align="left"  variant="body1" sx={{fontWeight:'light', marginBottom:'3vw'}} component='div' >
+        This was a collaborative, iterative design project
         in which we re-designed a pre-existing startup's mental health app to become more interactive to 
         increase engagement and provide a diverse set of alternatives for mental health. 
-        Because this was an external group project, the details and design project are in an external website. This page contains 
-        <BoldText txt="my personal reflections on the project and summary of feedback."/>
+        Because this was an external collaborative project, the details and design project are seen below and in an
 
-        For the actual redesign content, please view: <Link href="https://sleepypinks.github.io/koko" color="#A26769" underline="hover"> 
-                {`Iterative Re-design of Koko <3`} 
+        <Link href="https://sleepypinks.github.io/koko"  color="#53599A" underline="hover" target="_"> 
+                {` external website.`} 
             </Link>
         </Typography>
-        <Typography sx={{marginTop:"2vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
-        Redesign of Koko
-        </Typography>
-        <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
-        I have provided an following embedding for quick access. For more detailed introspection, please go to the actual project link. 
-        </Typography>
-        <p></p>
         
         <Iframe url="https://sleepypinks.github.io/koko"
         width="100%"
-        height="300rem"
+        height="1000rem"
         id=""
         className=""
         display="block"
         position="relative"/>
         <Typography align="right"  variant="body1" sx={{fontWeight:'light', marginTop:'1vw'}} component='div' >
-            <Link href="https://sleepypinks.github.io/koko" target="_" color="#A26769" underline="hover" > 
-                Iterative Re-design of Koko {`<3`}
-            </Link>
         </Typography>
-        <Typography sx={{marginTop:"2vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
+
+        <Typography sx={{marginTop:"5vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
         Design Feedback
         </Typography>
         <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >

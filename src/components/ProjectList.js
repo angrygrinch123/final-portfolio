@@ -9,18 +9,21 @@ import pageData from "../assets/pageData.json";
 export default function ProjectList() {
   return (
     <div id="project-list-container">
-      <Typography  align="left" color="#A26769" variant="h5">
+      <Typography sx={{marginTop:'5vw'}}  align="left" color="#A26769" variant="h5">
         Projects
       </Typography>
 
       <Box sx={
-        { display: 'flex',
+        {
+          display: 'flex',
           flexWrap: 'wrap',
           justifyContent: 'space-between',
           '& > :not(style)': {
           marginBottom:'2vw',
-          width: '18rem',
-          height: '25rem',
+          alignItems: 'center',
+          width:'100%',
+          marginTop:'2vw',
+          overflow:'scroll'
         }}}>
        { pageData.projects.map (( project, index ) =>
           <ProjectCard key={index} project={project}/>

@@ -1,5 +1,6 @@
 import {Box, Card, CardContent, CardMedia, 
-        IconButton, Link, Typography, Button} from '@mui/material';
+        IconButton, Link, Typography, Button, Divider,
+      } from '@mui/material';
 
 import { useNavigate } from "react-router-dom";
 
@@ -29,43 +30,40 @@ export default function ProjectCard({project}) {
 
 
   return (
-    <Card sx={{ display: 'flex', marginTop:'1vw', flexDirection:'row', flexWrap:'wrap', p:'0.8vw'}} elevation={12}>
-        <CardContent sx={{height:'15%'}}>
-         <Typography color="#A26769" component="div"  variant="subtitle1">
-            {project.name}
-          </Typography>
-          <Typography sx={{fontWeight:'light'}} variant="subtitle2" color="text.secondary" component="div">
-              { project.description }
-          </Typography>
-        </CardContent>
-        <CardContent
-          component="img"
-          sx={{
-            height: '55%',
-            width: '85%',
-            alignSelf:'center'
-          }}
-          alt={`${project.alt}` }
+    <Card sx={{  display:'flex', alignItems:'center',
+    flexDirection:'row', flexWrap:'wrap', justifyContent:'space-evenly',
+    "&:hover": {
+      border: "1px solid #A26769",
+      cursor: 'pointer'
+    },
+    
+    }} elevation={3} onClick={handleClick}>
+  <CardContent
+    component="img"
+sx={{
+        height: '30%',
+        width: '30%',
+  selfAlign:'center'
+      }}
+      alt={`${project.alt}` }
           src={ require( `../${project.thumbnail}`) }
-        />
-        <CardContent sx={{width:'100%'}}>
-          <Box sx={{display:'flex', flexDirection:'row', justifyContent:'space-between'}}>
-            <Box>
-              {renderButton(project)}
-            </Box>
-            <Box>
-            <Button size="small" 
-                    style={{color:"#A26769"}}
-                    onClick={handleClick}
-            > 
-              See More
-            </Button>
-            </Box>
-          </Box>
-        </CardContent>
-    </Card>
-
- 
-
+  />
+  
+  <CardContent 	
+    sx={{
+        width: '60%',
+      }}>
+    <Typography gutterBottom variant="h6" sx={{fontWeight:'light'}}  color="#A26769"  component="div">
+      {project.name}
+    </Typography>
+    <Typography variant="body2" sx={{fontWeight:'light'}}>
+    { project.description }
+    </Typography>
+     <Button size="small" 
+                    style={{color:"#A26769", marginTop:'2vw', padding:'0'}}
+                    onClick={handleClick}>See More
+    </Button>
+  </CardContent>
+</Card>
   );
 }

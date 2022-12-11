@@ -11,7 +11,7 @@ import CoPresentOutlinedIcon from '@mui/icons-material/CoPresentOutlined';
 
 import pageData from '../assets/pageData.json';
 
-export default function BasicList() {
+export default function PublicationList() {
   function getPublciationIcon(publicationType){
   	if (publicationType == "paper"){
   		return <DescriptionOutlinedIcon/>;

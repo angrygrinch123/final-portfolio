@@ -11,6 +11,7 @@ import Project4 from './pages/Project4.js';
 export default function ProjectPage({project}) {
   function renderPage(project){
     if (project.path ==="Project1"){
+      
       return <Project1/>
     }
     if (project.path ==="Project2"){
@@ -18,6 +19,9 @@ export default function ProjectPage({project}) {
     }
 
     if (project.path ==="Project3"){
+  
+
+    const win = window.open("https://sleepypinks.github.io/koko", '_');
       return <Project3/>
     }
 

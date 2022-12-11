@@ -1,18 +1,18 @@
 {
 	"title" : "Angry Grinch",
 	"aboutMe" : {
-        "occupation" : "Student studying Computer Science and Peace, Love, and War in Augmented Reality",
+        "occupation" : "Computer Science PhD Student",
 		"advisor1" : {
-			"name" : "Ares",
-			"ref": "https://en.wikipedia.org/wiki/Ares",
-			"labRef": "https://seuss.fandom.com/wiki/Mount_Crumpit",
-			"labName": "Mount Crumpit Lab"
+			"name" : "Jeff Huang",
+			"ref": "https://jeffhuang.com/",
+			"labRef": "https://hci.brown.edu/",
+			"labName": "Brown HCI Lab"
 		},
 		"advisor2" : {
-			"name" : "Aphrodite",
-			"ref": "https://en.wikipedia.org/wiki/Aphrodite",
-			"labRef": "https://en.wikipedia.org/wiki/Whoville",
-			"labName": "Whoville Corporation"
+			"name" : "James Tompkin",
+			"ref": "https://jamestompkin.com/",
+			"labRef": "https://visual.cs.brown.edu/",
+			"labName": "Visual Computing Group"
 		}
 	},
 	"publications" : [

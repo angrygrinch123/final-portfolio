@@ -26,7 +26,7 @@ return (
         is a more <BoldText txt="enhanced narrative"/> of the first iteration of this project with
         <BoldText txt="my personal reflections on the project and summary of feedback."/>
 
-        For a more elaborate exploration of the first iteration, please view: <Link href="https://angrygrinch123.github.io/redesign/" color="#A26769" underline="hover"> 
+        For a more elaborate exploration of the first iteration, please view: <Link href="https://angrygrinch123.github.io/redesign/" color="#53599A" underline="hover"> 
                 {`First Redesign.`} 
             </Link>
         </Typography>
@@ -41,7 +41,7 @@ return (
         <p></p>
         
         <Typography align="left"  variant="h6" sx={{fontWeight:'light', marginTop:'3vw'}} component='div' >
-        Narrative Redesign [First Iteration] -    <Link href="https://angrygrinch123.github.io/redesign/" target="_" color="#A26769" underline="hover" > 
+        Narrative Redesign [First Iteration] -    <Link href="https://angrygrinch123.github.io/redesign/" target="_" color="#335145" underline="hover" > 
             Link
             </Link>
         </Typography>
@@ -55,7 +55,7 @@ return (
  
 
         <Typography align="left"  variant="h6" sx={{fontWeight:'light', marginTop:'3vw'}} component='div' >
-         Website Redesign [First Iteration] -         <Link href="https://angrygrinch123.github.io/redesign/redesigned.html" target="_" color="#A26769" underline="hover" > 
+         Website Redesign [First Iteration] -         <Link href="https://angrygrinch123.github.io/redesign/redesigned.html" target="_" color="#53599A" underline="hover" > 
             Link
             </Link>
         </Typography>
@@ -83,7 +83,7 @@ return (
         Second Redesign Iteration
         </Typography>
         <Typography align="left"  variant="h6" sx={{fontWeight:'light', marginTop:'1vw'}} component='div' >
-        Narrative Redesign [ Second Iteration ] -    <Link href="https://angrygrinch123.github.io/redesign/index2.html" target="_" color="#A26769" underline="hover" > 
+        Narrative Redesign [ Second Iteration ] -    <Link href="https://angrygrinch123.github.io/redesign/index2.html" target="_" color="#53599A" underline="hover" > 
             Link
             </Link>
         </Typography>
@@ -104,7 +104,7 @@ return (
         position="relative"/>
  
         <Typography align="left"  variant="h6" sx={{fontWeight:'light', marginTop:'3vw'}} component='div' >
-        Website Redesign [Second Iteration] -    <Link href="https://angrygrinch123.github.io/redesign/redesign2.html" target="_" color="#A26769" underline="hover" > 
+        Website Redesign [Second Iteration] -    <Link href="https://angrygrinch123.github.io/redesign/redesign2.html" target="_" color="#53599A" underline="hover" > 
             Link
             </Link>
         </Typography>
