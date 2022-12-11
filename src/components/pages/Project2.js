@@ -38,7 +38,7 @@ return (
 			selfAlign:'center'
           }}
 		src={ arAgency }
-        alt=""
+        alt="Picture of two people, one where AR glasses the other is not"
       />
       <CardContent 	
 	  	  sx={{
@@ -84,7 +84,7 @@ return (
 			selfAlign:'center'
           }}
 		src={ arGlasses }
-        alt=""
+        alt="Picture of Spectacles, AR Glasses that look like sun glasses"
       />
    
     </Card>

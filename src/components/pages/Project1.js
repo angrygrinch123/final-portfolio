@@ -110,7 +110,7 @@ export default function Project1() {
 			selfAlign:'center'
           }}
 		src={ beeSvg }
-        alt=""
+        alt="Picture of a Bee"
       />
       <CardContent 	
 	  	  sx={{
@@ -223,7 +223,7 @@ export default function Project1() {
 			selfAlign:'center'
           }}
 		src={ slothSvg }
-        alt=""
+        alt="Picture of a sloth"
       />
       <CardContent 	
 	  	  sx={{

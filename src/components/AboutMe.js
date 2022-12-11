@@ -14,8 +14,14 @@ export default function AboutMe() {
       I am co-advised by 
       <Link href={pageData.aboutMe.advisor1.ref}  color="#53599A" underline="hover"> {pageData.aboutMe.advisor1.name} </Link> and
        <Link href={pageData.aboutMe.advisor2.ref} color="#53599A" underline="hover"> {pageData.aboutMe.advisor2.name}. </Link> 
-       I do research and <Typography display="inline" sx={{color:"#A26769"}}> redesign systems for users of varied stakeholders </Typography> to 
+      
+      <p></p>
+      I do research and <Typography display="inline" sx={{color:"#A26769"}}> redesign systems for users of varied stakeholders </Typography> to 
       create interfaces that are for <Typography display="inline" sx={{color:"#A26769"}}> social-good and are accessible and natural </Typography> for the users. 
+      While I do research in computer science, I think it's important to observe and ask users the challenges and problems they face when using a system. 
+      Many of my projects include formative studies and observations of users. 
+      I also enjoy redesigning visual hierachies to make systems more engaging and accessible for a broad range of users. 
+      This is why all of my personal projects have alt-encoded images and response visual hierachies using React.js 
     </Typography>
     </div>
   );
