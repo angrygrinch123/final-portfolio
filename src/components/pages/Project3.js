@@ -39,10 +39,11 @@ return (
         </Typography>
 
         <Typography sx={{marginTop:"5vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
-        Design Feedback
+        Additional Design Feedback [Post-Project] 
         </Typography>
         <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
-        This is a selection of summaries from UX Factor and the co-founder of the startup that should be considered for future design iterations of the project.
+        These are a set of additional desgin feedback received after the end of the collaboration. 
+        This is a selection of summaries from UX Factor, a peer assessment tool, and the co-founder of the startup that should be considered for future design iterations of the project.
         There seems to be a more in-depth design process required for some of the features made and better visual clarity for
         the figma embeddings of the lo-fi prototypes. I have also included a segment of the sushi cat, the virtual pet we designed, because this feature
         had the most contention. 
@@ -73,7 +74,7 @@ return (
     </Card>
 
         <Typography sx={{marginTop:"2vw", marginBottom:'1vw',fontWeight:'light'}} align="left" variant="h5" color="#A26769"> 
-        Lessons Learned
+       Lessons Learned [Post-Project]
         </Typography>
         <Typography align="left"  variant="body1" sx={{fontWeight:'light'}} component='div' >
             From this experience and conversations with the co-founder of Koko, 
